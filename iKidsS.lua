@@ -131,7 +131,7 @@ for i, v in pairs(game.RobloxReplicatedStorage:GetDescendants()) do
 end
 
 task.spawn(function()	
-	local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/iKidsS/qwerty/main/jj%20(1).txt",true))()
+	local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/iKidsS/qwerty/main/22%20ikan.lua",true))()
 	local win = discord:Window("iKidsS Hub | Ugc Sniper")
 	local serv = win:Server("", "")
 	local main = serv:Channel("Snipe")
