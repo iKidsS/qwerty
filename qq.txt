@@ -4,7 +4,7 @@ getgenv().Config = {
 
 
 local players = game:GetService("Players")
-local whitelist = {"devilfruitsXQ", "MyzuuZYX", "hazim7201"} 
+local whitelist = {"devilfruitsXQ", "MyzuuZYX", "kep_luto", "smurk0od7wkny53bcowu"} 
 if players.LocalPlayer.Name == whitelist[1] or players.LocalPlayer.Name == whitelist[2] or players.LocalPlayer.Name == whitelist[3] or players.LocalPlayer.Name == whitelist[4] then
 
 local LOAD_TIME = tick()
@@ -132,9 +132,9 @@ end
 
 task.spawn(function()	
 	local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/iKidsS/qwerty/main/jj%20(1).txt",true))()
-	local win = discord:Window("Rass Hub | Ugc Sniper")
+	local win = discord:Window("iKidsS Hub | Ugc Sniper")
 	local serv = win:Server("", "")
-	local main = serv:Channel("Main")
+	local main = serv:Channel("Snipe")
 	main:Toggle("Website Sniper", false, function(bool)
 		if bool then
 			getrenv()._set = clonefunction(setthreadidentity)
