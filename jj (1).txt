@@ -1,9 +1,9 @@
 local players = game:GetService("Players")
 local whitelist = {"devilfruitsXQ", "MyuuYZX", "kep_luto", "smurk0od7wkny53bcowu"} 
 if players.LocalPlayer.Name == whitelist[1]
-if players.LocalPlayer.Name == whitelist[2]
-if players.LocalPlayer.Name == whitelist[3]
-if players.LocalPlayer.Name == whitelist[4] then
+players.LocalPlayer.Name == whitelist[2]
+players.LocalPlayer.Name == whitelist[3]
+players.LocalPlayer.Name == whitelist[4] then
 
     do
         local DiscordLib = {}
