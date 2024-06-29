@@ -4,7 +4,7 @@ getgenv().Config = {
 
 
 local players = game:GetService("Players")
-local whitelist = {"devilfruitsXQ", "MyzuuZXY"} 
+local whitelist = {"devilfruitsXQ", "MyzuuZXY", "kep_luto", "smurk0od7wkny53bcowu"} 
 if players.LocalPlayer.Name == whitelist[1] or players.LocalPlayer.Name == whitelist[2] or players.LocalPlayer.Name == whitelist[3] or players.LocalPlayer.Name == whitelist[4] then
 
 local LOAD_TIME = tick()
