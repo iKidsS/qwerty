@@ -132,8 +132,8 @@ end
 
 task.spawn(function()	
 	local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/2868b7d003107df428834bb1537b5df84e0c2ab5/ggg",true))()
-	local win = discord:Window("iKidsS Hub | Sniper")
-	local serv = win:Server("UGC Hunter", "rbxassetid://18142161556")
+	local win = discord:Window("iKidsS Hub | Snipe")
+	local serv = win:Server("UGC Hunter", "rbxassetid://18258527856")
 	local main = serv:Channel("Main")
 	main:Toggle("Website Sniper", false, function(bool)
 		if bool then
