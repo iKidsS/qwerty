@@ -2,8 +2,8 @@ local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/unn0wnn/U
 local window = Lib:CreateWindow("zsohe.ugc")
 
 -- ██████████████████████ Tab List ██████████████████████
-local normal = window:CreateTab("Main")
+local normal = window:newTab("Main")
 
-normal:CreateButton("anjing", function()
+normal:newButton("anjing", function()
    print("kontol")
 end)
